@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		836D705B1994E24C00D24755 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836D705A1994E24C00D24755 /* Foundation.framework */; };
+		836D705D1994E24C00D24755 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836D705C1994E24C00D24755 /* CoreGraphics.framework */; };
+		836D705F1994E24C00D24755 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836D705E1994E24C00D24755 /* UIKit.framework */; };
+		836D70651994E24C00D24755 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 836D70631994E24C00D24755 /* InfoPlist.strings */; };
+		836D70671994E24C00D24755 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 836D70661994E24C00D24755 /* main.m */; };
+		836D706B1994E24C00D24755 /* CWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 836D706A1994E24C00D24755 /* CWAppDelegate.m */; };
+		836D706E1994E24C00D24755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836D706C1994E24C00D24755 /* Main.storyboard */; };
+		836D70711994E24C00D24755 /* CWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836D70701994E24C00D24755 /* CWViewController.m */; };
+		836D70731994E24C00D24755 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836D70721994E24C00D24755 /* Images.xcassets */; };
+		836D707A1994E24C00D24755 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836D70791994E24C00D24755 /* XCTest.framework */; };
+		836D707B1994E24C00D24755 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836D705A1994E24C00D24755 /* Foundation.framework */; };
+		836D707C1994E24C00D24755 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836D705E1994E24C00D24755 /* UIKit.framework */; };
+		836D70841994E24C00D24755 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 836D70821994E24C00D24755 /* InfoPlist.strings */; };
+		836D70861994E24C00D24755 /* TableViewController_Solution_From_VideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 836D70851994E24C00D24755 /* TableViewController_Solution_From_VideoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		836D707D1994E24C00D24755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 836D704F1994E24C00D24755 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 836D70561994E24C00D24755;
+			remoteInfo = "TableViewController Solution From Video";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		836D70571994E24C00D24755 /* TableViewController Solution From Video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableViewController Solution From Video.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		836D705A1994E24C00D24755 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		836D705C1994E24C00D24755 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		836D705E1994E24C00D24755 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		836D70621994E24C00D24755 /* TableViewController Solution From Video-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewController Solution From Video-Info.plist"; sourceTree = "<group>"; };
+		836D70641994E24C00D24755 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		836D70661994E24C00D24755 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		836D70681994E24C00D24755 /* TableViewController Solution From Video-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableViewController Solution From Video-Prefix.pch"; sourceTree = "<group>"; };
+		836D70691994E24C00D24755 /* CWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWAppDelegate.h; sourceTree = "<group>"; };
+		836D706A1994E24C00D24755 /* CWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWAppDelegate.m; sourceTree = "<group>"; };
+		836D706D1994E24C00D24755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		836D706F1994E24C00D24755 /* CWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWViewController.h; sourceTree = "<group>"; };
+		836D70701994E24C00D24755 /* CWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWViewController.m; sourceTree = "<group>"; };
+		836D70721994E24C00D24755 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		836D70781994E24C00D24755 /* TableViewController Solution From VideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableViewController Solution From VideoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		836D70791994E24C00D24755 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		836D70811994E24C00D24755 /* TableViewController Solution From VideoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewController Solution From VideoTests-Info.plist"; sourceTree = "<group>"; };
+		836D70831994E24C00D24755 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		836D70851994E24C00D24755 /* TableViewController_Solution_From_VideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController_Solution_From_VideoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		836D70541994E24C00D24755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836D705D1994E24C00D24755 /* CoreGraphics.framework in Frameworks */,
+				836D705F1994E24C00D24755 /* UIKit.framework in Frameworks */,
+				836D705B1994E24C00D24755 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836D70751994E24C00D24755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836D707A1994E24C00D24755 /* XCTest.framework in Frameworks */,
+				836D707C1994E24C00D24755 /* UIKit.framework in Frameworks */,
+				836D707B1994E24C00D24755 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		836D704E1994E24B00D24755 = {
+			isa = PBXGroup;
+			children = (
+				836D70601994E24C00D24755 /* TableViewController Solution From Video */,
+				836D707F1994E24C00D24755 /* TableViewController Solution From VideoTests */,
+				836D70591994E24C00D24755 /* Frameworks */,
+				836D70581994E24C00D24755 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		836D70581994E24C00D24755 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				836D70571994E24C00D24755 /* TableViewController Solution From Video.app */,
+				836D70781994E24C00D24755 /* TableViewController Solution From VideoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		836D70591994E24C00D24755 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				836D705A1994E24C00D24755 /* Foundation.framework */,
+				836D705C1994E24C00D24755 /* CoreGraphics.framework */,
+				836D705E1994E24C00D24755 /* UIKit.framework */,
+				836D70791994E24C00D24755 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		836D70601994E24C00D24755 /* TableViewController Solution From Video */ = {
+			isa = PBXGroup;
+			children = (
+				836D70691994E24C00D24755 /* CWAppDelegate.h */,
+				836D706A1994E24C00D24755 /* CWAppDelegate.m */,
+				836D706C1994E24C00D24755 /* Main.storyboard */,
+				836D706F1994E24C00D24755 /* CWViewController.h */,
+				836D70701994E24C00D24755 /* CWViewController.m */,
+				836D70721994E24C00D24755 /* Images.xcassets */,
+				836D70611994E24C00D24755 /* Supporting Files */,
+			);
+			path = "TableViewController Solution From Video";
+			sourceTree = "<group>";
+		};
+		836D70611994E24C00D24755 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				836D70621994E24C00D24755 /* TableViewController Solution From Video-Info.plist */,
+				836D70631994E24C00D24755 /* InfoPlist.strings */,
+				836D70661994E24C00D24755 /* main.m */,
+				836D70681994E24C00D24755 /* TableViewController Solution From Video-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		836D707F1994E24C00D24755 /* TableViewController Solution From VideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				836D70851994E24C00D24755 /* TableViewController_Solution_From_VideoTests.m */,
+				836D70801994E24C00D24755 /* Supporting Files */,
+			);
+			path = "TableViewController Solution From VideoTests";
+			sourceTree = "<group>";
+		};
+		836D70801994E24C00D24755 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				836D70811994E24C00D24755 /* TableViewController Solution From VideoTests-Info.plist */,
+				836D70821994E24C00D24755 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		836D70561994E24C00D24755 /* TableViewController Solution From Video */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836D70891994E24C00D24755 /* Build configuration list for PBXNativeTarget "TableViewController Solution From Video" */;
+			buildPhases = (
+				836D70531994E24C00D24755 /* Sources */,
+				836D70541994E24C00D24755 /* Frameworks */,
+				836D70551994E24C00D24755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableViewController Solution From Video";
+			productName = "TableViewController Solution From Video";
+			productReference = 836D70571994E24C00D24755 /* TableViewController Solution From Video.app */;
+			productType = "com.apple.product-type.application";
+		};
+		836D70771994E24C00D24755 /* TableViewController Solution From VideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836D708C1994E24C00D24755 /* Build configuration list for PBXNativeTarget "TableViewController Solution From VideoTests" */;
+			buildPhases = (
+				836D70741994E24C00D24755 /* Sources */,
+				836D70751994E24C00D24755 /* Frameworks */,
+				836D70761994E24C00D24755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				836D707E1994E24C00D24755 /* PBXTargetDependency */,
+			);
+			name = "TableViewController Solution From VideoTests";
+			productName = "TableViewController Solution From VideoTests";
+			productReference = 836D70781994E24C00D24755 /* TableViewController Solution From VideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		836D704F1994E24C00D24755 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CW;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					836D70771994E24C00D24755 = {
+						TestTargetID = 836D70561994E24C00D24755;
+					};
+				};
+			};
+			buildConfigurationList = 836D70521994E24C00D24755 /* Build configuration list for PBXProject "TableViewController Solution From Video" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 836D704E1994E24B00D24755;
+			productRefGroup = 836D70581994E24C00D24755 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				836D70561994E24C00D24755 /* TableViewController Solution From Video */,
+				836D70771994E24C00D24755 /* TableViewController Solution From VideoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		836D70551994E24C00D24755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836D70731994E24C00D24755 /* Images.xcassets in Resources */,
+				836D70651994E24C00D24755 /* InfoPlist.strings in Resources */,
+				836D706E1994E24C00D24755 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836D70761994E24C00D24755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836D70841994E24C00D24755 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		836D70531994E24C00D24755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836D706B1994E24C00D24755 /* CWAppDelegate.m in Sources */,
+				836D70671994E24C00D24755 /* main.m in Sources */,
+				836D70711994E24C00D24755 /* CWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836D70741994E24C00D24755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836D70861994E24C00D24755 /* TableViewController_Solution_From_VideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		836D707E1994E24C00D24755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 836D70561994E24C00D24755 /* TableViewController Solution From Video */;
+			targetProxy = 836D707D1994E24C00D24755 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		836D70631994E24C00D24755 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				836D70641994E24C00D24755 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		836D706C1994E24C00D24755 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				836D706D1994E24C00D24755 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		836D70821994E24C00D24755 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				836D70831994E24C00D24755 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		836D70871994E24C00D24755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		836D70881994E24C00D24755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		836D708A1994E24C00D24755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewController Solution From Video/TableViewController Solution From Video-Prefix.pch";
+				INFOPLIST_FILE = "TableViewController Solution From Video/TableViewController Solution From Video-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		836D708B1994E24C00D24755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewController Solution From Video/TableViewController Solution From Video-Prefix.pch";
+				INFOPLIST_FILE = "TableViewController Solution From Video/TableViewController Solution From Video-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		836D708D1994E24C00D24755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableViewController Solution From Video.app/TableViewController Solution From Video";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewController Solution From Video/TableViewController Solution From Video-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TableViewController Solution From VideoTests/TableViewController Solution From VideoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		836D708E1994E24C00D24755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableViewController Solution From Video.app/TableViewController Solution From Video";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewController Solution From Video/TableViewController Solution From Video-Prefix.pch";
+				INFOPLIST_FILE = "TableViewController Solution From VideoTests/TableViewController Solution From VideoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		836D70521994E24C00D24755 /* Build configuration list for PBXProject "TableViewController Solution From Video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836D70871994E24C00D24755 /* Debug */,
+				836D70881994E24C00D24755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836D70891994E24C00D24755 /* Build configuration list for PBXNativeTarget "TableViewController Solution From Video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836D708A1994E24C00D24755 /* Debug */,
+				836D708B1994E24C00D24755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		836D708C1994E24C00D24755 /* Build configuration list for PBXNativeTarget "TableViewController Solution From VideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836D708D1994E24C00D24755 /* Debug */,
+				836D708E1994E24C00D24755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 836D704F1994E24C00D24755 /* Project object */;
+}
